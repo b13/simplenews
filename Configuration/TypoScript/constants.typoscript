@@ -1,0 +1,14 @@
+plugin.tx_simplenews {
+	view {
+		 # cat=plugin.tx_simplenews/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:simplenews/Resources/Private/Templates/
+		 # cat=plugin.tx_simplenews/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:simplenews/Resources/Private/Partials/
+		 # cat=plugin.tx_simplenews/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:simplenews/Resources/Private/Layouts/
+	}
+	persistence {
+		 # cat=plugin.tx_simplenews//a; type=int+; label=Default Storage Page
+		storagePid =
+	}
+}

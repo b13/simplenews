@@ -1,0 +1,11 @@
+plugin.tx_simplenews {
+	persistence.storagePid = {$plugin.tx_simplenews.persistence.storagePid}
+	view {
+		templateRootPaths.10 = EXT:simplenews/Resources/Private/Templates/
+		templateRootPaths.20 = {$plugin.tx_simplenews.view.templateRootPath}
+		partialRootPaths.10 = EXT:simplenews/Resources/Private/Partials/
+		partialRootPaths.20 = {$plugin.tx_simplenews.view.partialRootPath}
+		layoutRootPaths.10 = EXT:simplenews/Resources/Private/Layouts/
+		layoutRootPaths.20 = {$plugin.tx_simplenews.view.layoutRootPath}
+	}
+}

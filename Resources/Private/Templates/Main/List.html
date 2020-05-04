@@ -1,0 +1,12 @@
+<h3>All news</h3>
+<f:if condition="{news -> f:count()}">
+	<f:then>
+		<f:for each="{news}" as="newsItem">
+			<h4>{newsItem.title} - <f:format.date format="d.m.Y H:i">{newsItem.publishedOn}</f:format.date></h4>
+			<p><f:link.action action="detail" arguments="{news: newsItem}">Read more…</f:link.action></p>
+		</f:for>
+	</f:then>
+	<f:else>
+		<p>No news found.</p>
+	</f:else>
+</f:if>

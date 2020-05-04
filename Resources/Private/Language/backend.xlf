@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0" xmlns:t3="http://typo3.org/schemas/xliff">
+	<file t3:id="1588600881" source-language="en" datatype="plaintext" original="EXT:simplenews/Resources/Private/Language/backend.xlf" date="2020-04-08T09:14:34Z" product-name="simplenews">
+		<header/>
+		<body>
+			<trans-unit id="simplenews" resname="simplenews">
+				<source>News</source>
+			</trans-unit>
+			<trans-unit id="simplenews.title" resname="simplenews.title">
+				<source>News Title</source>
+			</trans-unit>
+			<trans-unit id="simplenews.slug" resname="simplenews.slug">
+				<source>URL Path Segment</source>
+			</trans-unit>
+			<trans-unit id="simplenews.contents" resname="simplenews.contents">
+				<source>Content</source>
+			</trans-unit>
+			<trans-unit id="simplenews.publishedon" resname="simplenews.publishedon">
+				<source>Published On</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
